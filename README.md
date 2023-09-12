@@ -4,6 +4,7 @@ Now it is time for preparing the schedule of who is responsible for preparing ea
 However, there are some complications:
  - Perhaps, 2n/5 is not an integer number
  - You all have busy schedules and only have time availability to prepare meals on specific times
+
 To solve the problem, we initially collected the data about the time availability of each person. The five persons will be numbered 0, 1, 2, 3, 4. We get as input a list of lists availability. For a person numbered j and day numbered i, availability[i][j] is equal to:
  - 0, if that person has neither time availability to prepare the breakfast nor the dinner during that day
  - 1, if that person only has time availability to prepare the breakfast during that day
@@ -45,6 +46,7 @@ The function compare_subs(submission1, submission2) returns a list of findings w
  - the longest common substring between submission1 and submission2
  - the similarity score for submission1, expressed as the percentage of submission1 that belongs to the longest common substring (rounded to the nearest integer1), and
  - the similarity score for submission2, expressed as the percentage of submission2 that belongs to the longest common substring (rounded to the nearest integer)
+
 For example:
  - submission1 = ’the quick brown fox jumped over the lazy dog’
  - submission2 = ’my lazy dog has eaten my homework’
