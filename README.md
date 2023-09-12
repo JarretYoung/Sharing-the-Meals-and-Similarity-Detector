@@ -9,6 +9,7 @@ To solve the problem, we initially collected the data about the time availabilit
  - 1, if that person only has time availability to prepare the breakfast during that day
  - 2, if that person only has time availability to prepare the dinner during that day
  - 3, if that person has time availability to prepare either the breakfast or the dinner during that day
+
 After some conversations, you agree that a perfect allocation might not be possible, and someone might have to prepare more meals than others. Moreover, you realised that you might have to order some meals from a restaurant. Nevertheless, you want to achieve a fair distribution and not order many meals from restaurants, so you agreed on the following constraints:
  - Every meal is either allocated to exactly one person or ordered from a restaurant.
  - A person is only allocated to a meal for which s/he has time availability to prepare.
