@@ -16,6 +16,7 @@ After some conversations, you agree that a perfect allocation might not be possi
  - Every person should be allocated to at least ⌊0.36n⌋ and at most ⌈0.44n⌉ meals.
  - No more than ⌊0.1n⌋ meals should be ordered from restaurants.
  - No person is allocated to both meals of a day. There are no restrictions on ordering both meals of a day if the other constraints are satisfied.
+
 As the computer scientist in the house, your housemates asked you to design a program to do the allocation. And your housemates are fine with any allocation you give to them (even if it favours you) as long as it satisfy the constraints above!
 We solved this problem by writing the function allocate(availability) that returns:
 - None (i.e., Python NoneType), if an allocation that satisfy all constraints does not exist.
